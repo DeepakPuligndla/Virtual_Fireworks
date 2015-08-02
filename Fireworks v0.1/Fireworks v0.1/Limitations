@@ -1,0 +1,11 @@
+There are many drawbacks in this program
+1. Not a legacy code
+2. Not a good GUI
+3. Not much user controllable
+4. sound and lightings are not synchable
+5. positions are fixed
+6. static code
+
+can do
+1. parallelism using threads
+2. remove images and create some GUI to show bursting of crackers
