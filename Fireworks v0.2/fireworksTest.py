@@ -55,7 +55,7 @@ while running:							#loop the executes until user clicks the close button on th
 	pygame.mixer.music.load('rocketIgnition.mp3')
 
 
-	thread1 = threading.Thread(target = threadFunction, args = ((255,0,0), 150,500, 6, 2))
+ 	thread1 = threading.Thread(target = threadFunction, args = ((255,0,0), 150,500, 6, 2))
 	thread2 = threading.Thread(target = threadFunction, args = ((0,255,0), 350,500, 6, 2))
 
 	pygame.mixer.music.play(0)				#play the song that we loaded recent
